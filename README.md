@@ -1,6 +1,7 @@
 # Tracking_DepthAI
 
-This project is an Object Tracking ( the actual model that am using is yolo trained to detect fingers ) using depthAI and DeepSort , for feature extraction , mobilnet is used. 
+This project utilizes depthAI and DeepSort for Object Tracking, with the specific model being YOLO trained to detect fingers. Feature extraction is achieved using MobileNet. 
+Although the project functions properly after removing the VideoEncoder node implemented to enhance the FPS through stretch inference, the current FPS remains unsatisfactory.
 
 The pipeline structure :
 
